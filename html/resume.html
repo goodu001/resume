@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bowornrat Kamda - Resume</title>
+    <meta name="description" content="Professional resume for Bowornrat Kamda, Data Analyst with 12 years of experience in data processing and analysis.">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#135bec",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+
+    <style>
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            body {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+        .skill-bar {
+            background-color: rgba(19, 91, 236, 0.1);
+            border-left: 4px solid #135bec;
+        }
+            </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+        <div class="layout-container flex h-full grow flex-col">
+            <!-- Navigation -->
+            <div class="w-full flex justify-center sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm no-print">
+                <div class="layout-content-container flex flex-col w-full max-w-[960px]">
+                    <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 dark:border-gray-800 px-4 sm:px-10 py-3">
+                        <div class="flex items-center gap-4 text-gray-900 dark:text-white">
+                            <div class="size-4">
+                                <span class="material-symbols-outlined text-primary text-2xl">monitoring</span>
+                            </div>
+                            <h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Bowornrat Kamda</h2>
+                        </div>
+                        <div class="flex gap-4">
+                            <a href="../index.html" class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors">
+                                <span class="truncate">Back to Portfolio</span>
+                            </a>
+                            <button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors" onclick="window.print()">
+                                <span class="truncate">Print PDF</span>
+                            </button>
+                        </div>
+                    </header>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <main class="w-full flex flex-1 justify-center py-8">
+                <div class="layout-content-container flex flex-col w-full max-w-[960px] bg-white dark:bg-gray-900 rounded-lg shadow-lg print:shadow-none">
+
+                    <!-- Resume Header -->
+                    <div class="px-8 py-6 border-b border-gray-200 dark:border-gray-800">
+                        <div class="flex flex-col md:flex-row gap-6 items-center md:items-start">
+                            <div class="w-32 h-32 bg-cover bg-center rounded-full border-4 border-primary/20"
+                                 style="background-image: url('../../images/resize.jpg');"
+                                 data-alt="Professional headshot of Bowornrat Kamda">
+                            </div>
+                            <div class="flex-1 text-center md:text-left">
+                                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-2">
+                                    Bowornrat Kamda
+                                </h1>
+                                <h2 class="text-xl md:text-2xl text-primary font-semibold mb-4">
+                                    Data Analyst
+                                </h2>
+                                <div class="flex flex-col md:flex-row gap-2 md:gap-6 text-sm text-gray-600 dark:text-gray-400 justify-center md:justify-start">
+                                    <div class="flex items-center gap-2 justify-center md:justify-start">
+                                        <span class="material-symbols-outlined text-lg">location_on</span>
+                                        <span>Bangkok, Thailand</span>
+                                    </div>
+                                    <div class="flex items-center gap-2 justify-center md:justify-start">
+                                        <span class="material-symbols-outlined text-lg">phone</span>
+                                        <span>+66 85 220 7166</span>
+                                    </div>
+                                    <div class="flex items-center gap-2 justify-center md:justify-start">
+                                        <span class="material-symbols-outlined text-lg">email</span>
+                                        <a href="mailto:k.bowornrat@gmail.com" class="hover:text-primary transition-colors">k.bowornrat@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="flex gap-4 mt-4 justify-center md:justify-start">
+                                    <a href="https://www.linkedin.com/in/bowornrat-kamda-623322278/" target="_blank" class="text-primary hover:text-primary/80 transition-colors">
+                                        <span class="material-symbols-outlined text-2xl">business</span>
+                                    </a>
+                                    <a href="https://github.com/goodu001" target="_blank" class="text-primary hover:text-primary/80 transition-colors">
+                                        <span class="material-symbols-outlined text-2xl">code</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Resume Body -->
+                    <div class="px-8 py-6">
+                        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                            <!-- Left Column -->
+                            <div class="lg:col-span-2 space-y-6">
+
+                                <!-- Profile Summary -->
+                                <section>
+                                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4 pb-2 border-b-2 border-primary">
+                                        Profile Summary
+                                    </h3>
+                                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                                        Data Analyst with 12 years of experience at Unilode Aviation Solutions, specializing in data validation,
+                                        process optimization, and cross-functional collaboration. Proven ability to analyze complex datasets,
+                                        identify operational inefficiencies, and implement data-driven solutions that reduce manual processing
+                                        and improve system performance.
+                                    </p>
+                                </section>
+
+                                <!-- Work Experience -->
+                                <section>
+                                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4 pb-2 border-b-2 border-primary">
+                                        Work Experience
+                                    </h3>
+
+                                    <div class="relative pl-8 pb-8 border-l-2 border-gray-200 dark:border-gray-800">
+                                        <div class="timeline-item relative">
+                                            <h4 class="text-lg font-semibold text-gray-900 dark:text-white">
+                                                Data Processing Officer
+                                            </h4>
+                                            <p class="text-sm font-medium text-primary mb-2">
+                                                Unilode Aviation Solutions | 2012 - 2024
+                                            </p>
+                                            <ul class="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2 ml-4">
+                                                <li>Executed data validation, cleansing, and transformation of flight schedules to ensure accuracy across systems</li>
+                                                <li>Led pain point analysis for 90+ airline clients, identifying automation issues and delivering recommendations that reduced manual processing</li>
+                                                <li>Performed statistical analysis and created visualizations to support decision-making processes</li>
+                                                <li>Coordinated cross-functional testing for new system implementation (PlanB), analyzing bugs and assessing operational impacts</li>
+                                                <li>Developed and maintained documentation for data processing procedures and quality standards</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Projects -->
+                                <section>
+                                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4 pb-2 border-b-2 border-primary">
+                                        Projects
+                                    </h3>
+
+                                    <div class="space-y-4">
+                                        <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                                            <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                                                Data Clinic Database & Visualization
+                                            </h4>
+                                            <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Power BI | MySQL</p>
+                                            <p class="text-gray-700 dark:text-gray-300">
+                                                Developed comprehensive database system with interactive dashboards for clinic management,
+                                                improving data accessibility and decision-making processes.
+                                            </p>
+                                        </div>
+
+                                        <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                                            <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                                                Customer Segmentation using Machine Learning
+                                            </h4>
+                                            <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Python | Scikit-learn | Web Scraping</p>
+                                            <p class="text-gray-700 dark:text-gray-300">
+                                                Implemented clustering algorithms to segment customers, enabling targeted marketing strategies
+                                                and improving campaign effectiveness by 35%.
+                                            </p>
+                                        </div>
+
+                                        <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                                            <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                                                Coffee Business Feasibility Calculator
+                                            </h4>
+                                            <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Web Application | JavaScript</p>
+                                            <p class="text-gray-700 dark:text-gray-300">
+                                                Created interactive web application for business feasibility analysis with real-time calculations
+                                                and comprehensive reporting features.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+
+                            <!-- Right Column -->
+                            <div class="space-y-6">
+
+                                <!-- Skills -->
+                                <section>
+                                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4 pb-2 border-b-2 border-primary">
+                                        Technical Skills
+                                    </h3>
+
+                                    <div class="space-y-3">
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Programming</h4>
+                                            <div class="flex flex-wrap gap-2">
+                                                <span class="skill-bar px-3 py-1 rounded-full text-sm font-medium">Python</span>
+                                                <span class="skill-bar px-3 py-1 rounded-full text-sm font-medium">R</span>
+                                                <span class="skill-bar px-3 py-1 rounded-full text-sm font-medium">SQL</span>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Databases</h4>
+                                            <div class="flex flex-wrap gap-2">
+                                                <span class="skill-bar px-3 py-1 rounded-full text-sm font-medium">MySQL</span>
+                                                <span class="skill-bar px-3 py-1 rounded-full text-sm font-medium">PostgreSQL</span>
+                                                <span class="skill-bar px-3 py-1 rounded-full text-sm font-medium">BigQuery</span>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Visualization</h4>
+                                            <div class="flex flex-wrap gap-2">
+                                                <span class="skill-bar px-3 py-1 rounded-full text-sm font-medium">Tableau</span>
+                                                <span class="skill-bar px-3 py-1 rounded-full text-sm font-medium">Power BI</span>
+                                                <span class="skill-bar px-3 py-1 rounded-full text-sm font-medium">Matplotlib</span>
+                                                <span class="skill-bar px-3 py-1 rounded-full text-sm font-medium">Seaborn</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Education -->
+                                <section>
+                                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4 pb-2 border-b-2 border-primary">
+                                        Education
+                                    </h3>
+
+                                    <div class="space-y-3">
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900 dark:text-white">
+                                                Civil Aviation Training Center
+                                            </h4>
+                                            <p class="text-sm text-primary">Bachelor of Technology (Airport Management)</p>
+                                            <p class="text-xs text-gray-600 dark:text-gray-400">2008-2011</p>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Certifications -->
+                                <section>
+                                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4 pb-2 border-b-2 border-primary">
+                                        Certifications
+                                    </h3>
+
+                                    <div class="space-y-3">
+                                        <div class="bg-gray-50 dark:bg-gray-800 p-3 rounded-lg">
+                                            <h4 class="font-semibold text-gray-900 dark:text-white text-sm">
+                                                DeepLearning.AI Data Analytics
+                                            </h4>
+                                            <p class="text-xs text-gray-600 dark:text-gray-400">DeepLearning.AI | 2025</p>
+                                        </div>
+
+                                        <div class="bg-gray-50 dark:bg-gray-800 p-3 rounded-lg">
+                                            <h4 class="font-semibold text-gray-900 dark:text-white text-sm">
+                                                Gemini for Data Scientists and Analysts
+                                            </h4>
+                                            <p class="text-xs text-gray-600 dark:text-gray-400">Google | 2025</p>
+                                        </div>
+
+                                        <div class="bg-gray-50 dark:bg-gray-800 p-3 rounded-lg">
+                                            <h4 class="font-semibold text-gray-900 dark:text-white text-sm">
+                                                Generative AI-Powered SQL Data Analysis
+                                            </h4>
+                                            <p class="text-xs text-gray-600 dark:text-gray-400">Vanderbilt University | 2025</p>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Languages -->
+                                <section>
+                                    <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4 pb-2 border-b-2 border-primary">
+                                        Languages
+                                    </h3>
+
+                                    <div class="space-y-2">
+                                        <div class="flex justify-between items-center">
+                                            <span class="text-gray-700 dark:text-gray-300">Thai</span>
+                                            <span class="text-sm text-gray-600 dark:text-gray-400">Native</span>
+                                        </div>
+                                        <div class="flex justify-between items-center">
+                                            <span class="text-gray-700 dark:text-gray-300">English</span>
+                                            <span class="text-sm text-gray-600 dark:text-gray-400">Professional Working</span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
